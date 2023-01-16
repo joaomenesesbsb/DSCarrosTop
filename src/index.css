@@ -21,6 +21,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
 .container {
   width:  100%;
   max-width: 746px;

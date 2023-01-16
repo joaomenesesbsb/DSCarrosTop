@@ -3,6 +3,7 @@ import './styles.css';
 import HeaderCT from '../../components/HeaderCT';
 import CardCatalog from '../../components/CardCatalog';
 import CardDescriprion from '../../components/CardDescription';
+import FooterCT from '../../components/FooterCT';
 
 export default function CatalogCT(){
     return(
@@ -23,6 +24,7 @@ export default function CatalogCT(){
                 <CardDescriprion />
             </section>
         </main>
+        <FooterCT />
         </>
     )
 }
