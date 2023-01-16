@@ -1,0 +1,16 @@
+.card-catalog-ct {
+    margin: 25px 0;
+    background-color: var(--color-bg-quaternary);
+    border: 1px solid var(--color-border-primary);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-catalog-ct img {
+    width: 260px;
+    height: 194.46px;
+}
+
+.card-catalog-ct h3 {
+    font-size: 16px;
+}

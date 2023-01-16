@@ -1,0 +1,9 @@
+#section-catalog-content {
+    background-color: var(--color-bg-quaternary);
+    padding-top: 25px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--color-font-secundary);
+}
