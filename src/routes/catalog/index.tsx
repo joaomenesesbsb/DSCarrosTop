@@ -15,13 +15,15 @@ export default function CatalogCT(){
                 <CardCatalog />
                 <CardCatalog />
             </section>
-            <section id='section-description-content' className='contanier-secundary'>
+            <section id='section-description-content' >
                 <h2>O que estão dizendo</h2>
+                <div className='container-secundary'>
                 <CardDescriprion />
                 <CardDescriprion />
                 <CardDescriprion />
                 <CardDescriprion />
                 <CardDescriprion />
+                </div>
             </section>
         </main>
         <FooterCT />

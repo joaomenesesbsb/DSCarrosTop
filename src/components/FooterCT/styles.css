@@ -1,8 +1,10 @@
 footer {
     background-color: var(--color-bg-primary);
     height: 120px;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
   }
@@ -13,4 +15,21 @@ footer {
 
   footer a {
     padding-bottom: 10px;
+  }
+
+  @media (min-width: 1200px) {
+    footer {
+      height: 120px;
+      align-items: unset;
+    }
+
+    .footer-ct {
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer a {
+      padding-bottom: 0px;
+    }
   }
