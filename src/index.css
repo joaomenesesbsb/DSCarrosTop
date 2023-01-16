@@ -3,12 +3,12 @@
 :root {
   --color-bg-primary: #3C9AF0;
   --color-bg-secundary: #D9D9D9;
-  --color-bg-terciary: #C8C8C8;
+  --color-bg-tertiary: #C8C8C8;
   --color-bg-quaternary: #ffffff;
 
   --color-font-primary: #FFFFFF;
   --color-font-secundary: #5E5E5E;
-  --color-font-terciary: #3C9AF0;
+  --color-font-tertiary: #3C9AF0;
 
   --color-border-primary: #3C9AF0;
 
@@ -25,5 +25,12 @@
   width:  100%;
   max-width: 746px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
+}
+
+.contanier-secundary {
+  width:  100%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
 }

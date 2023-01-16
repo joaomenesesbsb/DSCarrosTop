@@ -2,6 +2,7 @@ import './styles.css';
 
 import HeaderCT from '../../components/HeaderCT';
 import CardCatalog from '../../components/CardCatalog';
+import CardDescriprion from '../../components/CardDescription';
 
 export default function CatalogCT(){
     return(
@@ -13,8 +14,13 @@ export default function CatalogCT(){
                 <CardCatalog />
                 <CardCatalog />
             </section>
-            <section>
-                
+            <section id='section-description-content' className='contanier-secundary'>
+                <h2>O que estão dizendo</h2>
+                <CardDescriprion />
+                <CardDescriprion />
+                <CardDescriprion />
+                <CardDescriprion />
+                <CardDescriprion />
             </section>
         </main>
         </>

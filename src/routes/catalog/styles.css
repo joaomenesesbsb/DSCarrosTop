@@ -1,9 +1,27 @@
 #section-catalog-content {
     background-color: var(--color-bg-quaternary);
+    color: var(--color-font-secundary);
     padding-top: 25px;
     font-size: 20px;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+#section-catalog-content h2 {
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+#section-description-content{
+    background-color: var(--color-bg-tertiary);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     color: var(--color-font-secundary);
+}
+
+#section-description-content h2 {
+    margin: 25px 0;
+    font-size: 20px;
 }
